@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Kerbal Crafts</title>
+	<link rel="stylesheet" href="css/main_buttons.css">
+	<link rel="stylesheet" href="css/main_buttons_2.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/demo.css">
+
+	<style>
+
+		.image-effect-simple{
+			width: 500px;
+			height: 300px;
+			overflow: hidden;
+			position: relative;
+			margin: 0 auto;
+		}
+
+		.image-effect-simple .image-layer{
+			position: absolute;
+			top:0;
+			left: 0;
+			height: 300px;
+			overflow: hidden;
+			z-index: 1;
+
+			-webkit-transition: 0.4s ease;
+			transition: 0.4s ease;
+		}
+
+		.image-effect-simple:hover .image-layer{
+			transform: translateY(-50px);
+			-webkit-transform: translateY(-50px);
+		}
+
+		.image-effect-simple .share-layer{
+			position: absolute;
+			bottom:-100px;
+			left: 0;
+			background-color: #1b2631;
+			width: 100%;
+			height: 100px;
+			-webkit-transition: 0.4s;
+			transition: 0.4s;
+			z-index: 10;
+		}
+
+		.image-effect-simple:hover .share-layer{
+			transform: translateY(-100px);
+			-webkit-transform: translateY(-100px);
+		}
+
+		.share-button{
+			display: inline-block;
+			text-decoration: none;
+			color: #ffffff;
+			padding: 12px;
+			width: 90px;
+			border-radius: 2px;
+			margin:	30px 10px;
+		}
+
+		.share-via-vk{
+			background-color:#4C75A3;
+		}
+
+		.share-via-facebook{
+			background-color:#FF0000;
+		}
+
+		.share-via-twitter{
+			background-color:#00AAE8;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>⠀</h1>
+	<h1>⠀</h1>
+	<h1>⠀</h1>
+	<h1>⠀</h1>
+
+	<font face="Verdana" color=#f1c40f size="6"><center><strong>⠀⠀Работ загружено: 1</strong></center></font>
+	<h1>⠀</h1>
+	<center><a href="rockets.html" class="double-border-button"><h1>Ракеты</h1></a><a href="" class="double-border-button-dva"><h1>Самолёты</h1></a></center>
+
+		<div class="image-effect-simple">
+		<center><font face="Verdana">
+			<div class="share-layer">
+				<a href="https://vk.com/kerbalcrafts" class="share-button share-via-vk">
+					<i class="fa fa-vk"></i>
+					VK
+				</a>
+	
+				<a href="#" class="share-button share-via-facebook">
+					<i class="fa fa-facebook"></i>
+					YouTube
+				</a>
+	
+				<a href="#" class="share-button share-via-twitter">
+					<i class="fa fa-twitter"></i>
+					Skype
+				</a>
+			</div>
+	
+			<div class="image-layer">
+				<img src="images/spytnik.png" width="500" alt="California surf">
+			</div>
+		</center></font>
+		</div>
+	</div>
+
+
+</body>
+</html>
